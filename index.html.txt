@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePick | Ultimate Movie Suggestions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">🎬 CinePick</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Trending</a>
+            <a href="#">Genres</a>
+        </nav>
+    </header>
+
+    <!-- Hero Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Don't know what to watch?</h1>
+            <p>Discover handpicked movie recommendations tailored to your exact mood.</p>
+            <button class="cta-btn">Suggest a Movie</button>
+        </div>
+    </section>
+
+    <!-- Movie Grid Section -->
+    <main>
+        <h2>Tonight's Top Recommendations</h2>
+        <div class="movie-grid">
+            
+            <!-- Movie Card 1 -->
+            <div class="movie-card">
+                <div class="badge">Sci-Fi</div>
+                <div class="movie-info">
+                    <h3>Interstellar</h3>
+                    <p>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>
+                    <span class="rating">⭐ 8.7/10</span>
+                </div>
+            </div>
+
+            <!-- Movie Card 2 -->
+            <div class="movie-card">
+                <div class="badge">Sci-Fi / Action</div>
+                <div class="movie-info">
+                    <h3>Inception</h3>
+                    <p>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task.</p>
+                    <span class="rating">⭐ 8.8/10</span>
+                </div>
+            </div>
+
+            <!-- Movie Card 3 -->
+            <div class="movie-card">
+                <div class="badge">Drama / Thriller</div>
+                <div class="movie-info">
+                    <h3>Parasite</h3>
+                    <p>Greed and class discrimination threaten the newly formed symbiotic relationship between two families.</p>
+                    <span class="rating">⭐ 8.5/10</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 CinePick. Built with HTML & CSS.</p>
+    </footer>
+
+</body>
+</html>
